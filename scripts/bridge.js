@@ -7,9 +7,9 @@
 const hre = require("hardhat");
 const tokenJSON = require("../artifacts/contracts/MetaToken.sol/MetaToken.json");
 
-const tokenAddress = "0xFFDC77894c932aaf8ca4C3eF87230AcA0dFA61B5" ; // Extract token address from .env
+const tokenAddress = "0x5b6b8c88B89149f920D674B844bd79154B5a9AD9" ; // Extract token address from .env
 const tokenABI = tokenJSON.abi;
-const walletAddress = "0x12D44d037Feaa703eC8031FE16572c4088ED3E5E";
+const walletAddress = "0xAABFa817c27bd98fb75DF05Cdc27E631d315852e";
 
 const fxRootContractABI = require("../fxRootContractABI.json");
 const fxERC21RootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de";
